@@ -1,0 +1,23 @@
+# 系統產生的垃圾
+.DS_Store
+Thumbs.db
+
+# Python 自動產生的檔案
+__pycache__/
+*.pyc
+
+# 編輯器設定
+.idea/
+.vscode/
+
+# 下載或產生的資料
+data/
+!data/.gitkeep
+
+# 訓練後產生的模型權重
+snapshots/
+*.pth
+!snapshots/.gitkeep
+
+# 執行結果（圖、json，可不要）
+results/*.json
