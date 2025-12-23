@@ -11,13 +11,15 @@ __pycache__/
 .vscode/
 
 # 下載或產生的資料
-data/
+data/*
+!data/
 !data/.gitkeep
 
 # 訓練後產生的模型權重
-snapshots/
-*.pth
+snapshots/*
+!snapshots/
 !snapshots/.gitkeep
+*.pth
 
 # 執行結果（圖、json，可不要）
 results/*.json
